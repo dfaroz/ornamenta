@@ -1,9 +1,10 @@
 import useMediaQuery from "../../../hooks/useMediaQuery"
-import Image8 from "../../../assets/Image8.png"
-import Image9 from "../../../assets/Image9.png"
-import Image10 from "../../../assets/Image10.png"
-import Image11 from "../../../assets/Image11.png"
-import Image12 from "../../../assets/Image12.png"
+import Image8 from "../../../assets/image8.png"
+import Image9 from "../../../assets/image9.png"
+import Image10 from "../../../assets/image10.png"
+import Image11 from "../../../assets/image11.png"
+import Image12 from "../../../assets/image12.png"
+import GalleryImage from "../../atoms/galleryimage"
 
 type Props = {}
 
@@ -21,15 +22,15 @@ const Galleries = (props: Props) => {
                     <div
                         className="basis-1/3"
                     >
-                        <img alt="Image8" src={Image8}/>
+                        <GalleryImage Image={Image8}/>
                     </div>
                     <div
                         className="basis-2/3 grid grid-cols-2 gap-2"
                     >
-                        <img alt="Image9" src={Image9}/>
-                        <img alt="Image10" src={Image10}/>
-                        <img alt="Image11" src={Image11}/>
-                        <img alt="Image12" src={Image12}/>
+                        <GalleryImage Image={Image9}/>
+                        <GalleryImage Image={Image10}/>
+                        <GalleryImage Image={Image11}/>
+                        <GalleryImage Image={Image12}/>
 
                     </div>
                 </div>

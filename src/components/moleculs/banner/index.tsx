@@ -1,5 +1,4 @@
 import PlayCircleIcon from "@heroicons/react/24/solid/PlayCircleIcon"
-import image1 from "../../../assets/image1.png"
 import useMediaQuery from "../../../hooks/useMediaQuery"
 import { SelectedPage } from "../../../shared/types"
 import ActionButton from "../../atoms/actionbutton"
