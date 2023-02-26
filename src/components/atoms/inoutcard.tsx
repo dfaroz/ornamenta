@@ -13,7 +13,7 @@ const InOutCard = ({ InOutTitle, InOutSubTitle, InOutCardImage}: Props) => {
         <p className="text-green-1 mt-3">
           {InOutTitle}
         </p>
-        <p className="text-sm my-3 text-gray-4">
+        <p className="text-sm my-3 text-gray-3">
           {InOutSubTitle}
         </p>        
     </div>
