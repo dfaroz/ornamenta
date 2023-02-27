@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import Banner from "../../components/moleculs/banner";
+import Blog from "../../components/moleculs/blog/blog";
 import EmailUs from "../../components/moleculs/emailus";
 import Galleries from "../../components/moleculs/galeries";
 import InOutPlants from "../../components/moleculs/in-out-door-plants";
@@ -24,8 +25,9 @@ const Home = ({ setSelectedPage }: Props) => {
         <Products />
         <QAProduct />
         <Galleries />
-        <EmailUs />
         <Testimmoni />
+        <EmailUs />
+        <Blog />
       </motion.div>
     </section>
   )

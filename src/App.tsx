@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react"
+import Footer from "./components/moleculs/footer";
 import Navbar from "./components/moleculs/navbar"
 import Home from "./pages/home"
 import { SelectedPage } from "./shared/types";
@@ -27,6 +28,10 @@ function App() {
         setSelectedPage={setSelectedPage}
       />
       <Home setSelectedPage={setSelectedPage} />
+      <Footer 
+        selectedPage={selectedPage} 
+        setSelectedPage={setSelectedPage} 
+      />
     </div>
   )
 }
