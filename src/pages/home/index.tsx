@@ -1,12 +1,12 @@
 import { motion } from "framer-motion";
-import Banner from "../../components/moleculs/banner";
-import Blog from "../../components/moleculs/blog/blog";
-import EmailUs from "../../components/moleculs/emailus";
-import Galleries from "../../components/moleculs/galeries";
-import InOutPlants from "../../components/moleculs/in-out-door-plants";
-import Products from "../../components/moleculs/products";
-import QAProduct from "../../components/moleculs/qaproducts";
-import Testimmoni from "../../components/moleculs/testimoni/testimoni";
+import Banner from "../../components/banner";
+import Blog from "../../components/blog";
+import EmailUs from "../../components/emailus";
+import Galleries from "../../components/galleries";
+import InOutPlants from "../../components/in-out-door-plants";
+import Products from "../../components/products";
+import QAProduct from "../../components/qaproducts";
+import Testimmoni from "../../components/testimoni";
 import { SelectedPage } from "../../shared/types";
 
 type Props = {

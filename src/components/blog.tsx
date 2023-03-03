@@ -1,8 +1,8 @@
-import useMediaQuery from "../../../hooks/useMediaQuery"
-import BlogCard from "../../atoms/blogcard"
-import Image14 from "../../../assets/image14.png"
-import Image15 from "../../../assets/image15.png"
-import Image16 from "../../../assets/image16.png"
+import useMediaQuery from "../hooks/useMediaQuery"
+import BlogCard from "../shared/blogcard"
+import Image14 from "../assets/image14.png"
+import Image15 from "../assets/image15.png"
+import Image16 from "../assets/image16.png"
 
 type Props = {}
 

@@ -1,8 +1,8 @@
 import { useState } from "react"
-import ornamenta from "../../../assets/ornamenta.png"
-import useMediaQuery from "../../../hooks/useMediaQuery"
-import { SelectedPage } from "../../../shared/types"
-import ActionButton from "../../atoms/actionbutton"
+import ornamenta from "../../assets/ornamenta.png"
+import useMediaQuery from "../../hooks/useMediaQuery"
+import { SelectedPage } from "../../shared/types"
+import ActionButton from "../../shared/actionbutton"
 import Link from "./link"
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid"
 

@@ -1,10 +1,10 @@
-import useMediaQuery from "../../../hooks/useMediaQuery"
-import QAProductImage from "../../../assets/QAProductImage.png"
-import InOutCard from "../../atoms/inoutcard"
-import TimeCosuming from "../../../assets/Time-Cosuming.svg"
-import GrowSprout from "../../../assets/Grow_Sprout.svg"
-import Temperature from "../../../assets/Temperature.svg"
-import Pruning from "../../../assets/Pruning.svg"
+import useMediaQuery from "../hooks/useMediaQuery"
+import QAProductImage from "../assets/QAProductImage.png"
+import InOutCard from "../shared/inoutcard"
+import TimeCosuming from "../assets/Time-Cosuming.svg"
+import GrowSprout from "../assets/Grow_Sprout.svg"
+import Temperature from "../assets/Temperature.svg"
+import Pruning from "../assets/Pruning.svg"
 
 type Props = {}
 

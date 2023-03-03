@@ -1,11 +1,11 @@
-import useMediaQuery from "../../../hooks/useMediaQuery"
-import ProductCard from "../../atoms/productcard"
-import Image2 from "../../../assets/image2.png"
-import Image3 from "../../../assets/image3.png"
-import Image4 from "../../../assets/image4.png"
-import Image5 from "../../../assets/image5.png"
-import Image6 from "../../../assets/image6.png"
-import Image7 from "../../../assets/image7.png"
+import useMediaQuery from "../hooks/useMediaQuery"
+import ProductCard from "../shared/productcard"
+import Image2 from "../assets/image2.png"
+import Image3 from "../assets/image3.png"
+import Image4 from "../assets/image4.png"
+import Image5 from "../assets/image5.png"
+import Image6 from "../assets/image6.png"
+import Image7 from "../assets/image7.png"
 
 type Props = {}
 

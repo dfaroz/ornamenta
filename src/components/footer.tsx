@@ -1,5 +1,5 @@
-import { SelectedPage } from "../../../shared/types"
-import Link from "../navbar/link"
+import { SelectedPage } from "../shared/types"
+import Link from "../components/navbar/link"
 
 type Props = {
     selectedPage: SelectedPage,

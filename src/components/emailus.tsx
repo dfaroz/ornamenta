@@ -1,5 +1,5 @@
 import AnchorLink from "react-anchor-link-smooth-scroll"
-import useMediaQuery from "../../../hooks/useMediaQuery"
+import useMediaQuery from "../hooks/useMediaQuery"
 
 type Props = {}
 

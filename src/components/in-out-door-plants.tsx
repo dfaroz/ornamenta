@@ -1,8 +1,8 @@
-import useMediaQuery from "../../../hooks/useMediaQuery"
-import InOutCard from "../../atoms/inoutcard"
-import Bamboo from "../../../assets/Bamboo.svg"
-import IndoorPlant from "../../../assets/Indoor_Plant.svg"
-import OutdoorPlant from "../../../assets/Outdoor_Plant.svg"
+import useMediaQuery from "../hooks/useMediaQuery"
+import InOutCard from "../shared/inoutcard"
+import Bamboo from "../assets/Bamboo.svg"
+import IndoorPlant from "../assets/Indoor_Plant.svg"
+import OutdoorPlant from "../assets/Outdoor_Plant.svg"
 
 type Props = {}
 

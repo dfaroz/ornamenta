@@ -1,7 +1,7 @@
 import PlayCircleIcon from "@heroicons/react/24/solid/PlayCircleIcon"
-import useMediaQuery from "../../../hooks/useMediaQuery"
-import { SelectedPage } from "../../../shared/types"
-import ActionButton from "../../atoms/actionbutton"
+import useMediaQuery from "../hooks/useMediaQuery"
+import { SelectedPage } from "../shared/types"
+import ActionButton from "../shared/actionbutton"
 
 type Props = {
     setSelectedPage: (value: SelectedPage) => void

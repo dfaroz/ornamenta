@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
-import Footer from "./components/moleculs/footer";
-import Navbar from "./components/moleculs/navbar"
+import Footer from "./components/footer";
+import Navbar from "./components/navbar"
 import Home from "./pages/home"
 import { SelectedPage } from "./shared/types";
 

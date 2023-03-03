@@ -1,10 +1,10 @@
-import useMediaQuery from "../../../hooks/useMediaQuery"
-import Image8 from "../../../assets/image8.png"
-import Image9 from "../../../assets/image9.png"
-import Image10 from "../../../assets/image10.png"
-import Image11 from "../../../assets/image11.png"
-import Image12 from "../../../assets/image12.png"
-import GalleryImage from "../../atoms/galleryimage"
+import useMediaQuery from "../hooks/useMediaQuery"
+import Image8 from "../assets/image8.png"
+import Image9 from "../assets/image9.png"
+import Image10 from "../assets/image10.png"
+import Image11 from "../assets/image11.png"
+import Image12 from "../assets/image12.png"
+import GalleryImage from "../shared/galleryimage"
 
 type Props = {}
 

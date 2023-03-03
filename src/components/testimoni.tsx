@@ -1,6 +1,6 @@
-import useMediaQuery from "../../../hooks/useMediaQuery"
-import TestimoniCard from "../../atoms/testimonicard"
-import Image4 from "../../../assets/image4.png"
+import useMediaQuery from "../hooks/useMediaQuery"
+import TestimoniCard from "../shared/testimonicard"
+import Image4 from "../assets/image4.png"
 
 type Props = {}
 
